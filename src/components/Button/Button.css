@@ -1,1 +1,33 @@
 @import url('../../assets/main.css');
+
+.flat-button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.outline-button {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.6em;
+    color: var(--primary-color);
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}

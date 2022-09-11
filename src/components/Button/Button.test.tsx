@@ -1,10 +1,10 @@
 import React from "react";
 import { render } from "@testing-library/react";
 
-import Button from "./Button";
+import FlatButton from "./Button";
 
 describe("Button", () => {
     test("renders the Button component", () => {
-        render(<Button label="Hello world!" />);
+        render(<FlatButton label="Hello world!" appearance='flat' onClick={() => { }} />);
     });
 });

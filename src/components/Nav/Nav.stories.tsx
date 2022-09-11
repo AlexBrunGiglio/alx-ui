@@ -13,5 +13,42 @@ const Template: ComponentStory<typeof Nav> = (args) => <Nav {...args} />;
 
 export const NavFluid = Template.bind({});
 NavFluid.args = {
-    title: "Title",
+    title: 'NavTitle',
+    links: [
+        {
+            label: 'Link1',
+            onClick: () => { },
+        },
+        {
+            label: 'Link2',
+            onClick: () => { },
+        },
+        {
+            label: 'Link3',
+            onClick: () => { },
+        },
+    ],
+    showMenu: true,
+    menuLabel: 'Menu',
+    onMenuClick: () => { },
+};
+
+export const NavFluidWithoutMenu = Template.bind({});
+NavFluidWithoutMenu.args = {
+    title: 'NavTitle',
+    links: [
+        {
+            label: 'Link1',
+            onClick: () => { },
+        },
+        {
+            label: 'Link2',
+            onClick: () => { },
+        },
+        {
+            label: 'Link3',
+            onClick: () => { },
+        },
+    ],
+    showMenu: false,
 };
