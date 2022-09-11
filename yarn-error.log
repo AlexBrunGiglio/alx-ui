@@ -1,0 +1,33 @@
+Arguments: 
+  /Users/alex/.nvm/versions/node/v16.15.0/bin/node /Users/alex/.node/corepack/yarn/1.22.15/bin/yarn.js add react typescript @types/react --save-dev
+
+PATH: 
+  /Users/alex/flutter/bin:/opt/homebrew/lib/ruby/gems/2.7.0/bin:/Users/alex/.nvm/versions/node/v16.15.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/alex/flutter/bin:/opt/homebrew/lib/ruby/gems/2.7.0/bin:/Users/alex/.nvm/versions/node/v16.15.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/alex/.pub-cache/bin:/Users/alex/.pub-cache/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.15.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND verdaccio.ekip.local
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "test-lib",
+    "version": "1.0.0",
+    "description": "Test lib is a web component lib test",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
