@@ -1,0 +1,10 @@
+{
+  "name": "ark-ui",
+  "version": "1.0.1",
+  "description": "Ark-UI est une librairie de composants web. ",
+  "main": "index.js",
+  "repository": "https://github.com/AlexBrunGiglio/ark-ui",
+  "author": "Alexandre Brun-Giglio",
+  "license": "MIT",
+  "private": false
+}
