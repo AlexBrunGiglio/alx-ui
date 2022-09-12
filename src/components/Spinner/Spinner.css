@@ -1,18 +1,18 @@
-.spinner {
+.bubble {
     display: inline-block;
     position: relative;
     width: 80px;
     height: 80px;
 }
 
-.spinner.s {
+.bubble.s {
     display: inline-block;
     position: relative;
     width: 30px;
     height: 30px;
 }
 
-.spinner div {
+.bubble div {
     position: absolute;
     top: 33px;
     width: 13px;
@@ -22,53 +22,53 @@
     animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 
-.spinner.s div {
+.bubble.s div {
     top: 13px;
     width: 5px;
     height: 5px;
 }
 
-.spinner div:nth-child(1) {
+.bubble div:nth-child(1) {
     left: 8px;
-    animation: spinner1 0.6s infinite;
+    animation: bubble1 0.6s infinite;
 }
 
-.spinner div:nth-child(2) {
+.bubble div:nth-child(2) {
     left: 8px;
-    animation: spinner2 0.6s infinite;
+    animation: bubble2 0.6s infinite;
 }
 
-.spinner div:nth-child(3) {
+.bubble div:nth-child(3) {
     left: 32px;
-    animation: spinner2 0.6s infinite;
+    animation: bubble2 0.6s infinite;
 }
 
-.spinner div:nth-child(4) {
+.bubble div:nth-child(4) {
     left: 56px;
-    animation: spinner3 0.6s infinite;
+    animation: bubble3 0.6s infinite;
 }
 
-.spinner.s div:nth-child(1) {
+.bubble.s div:nth-child(1) {
     left: 1px;
-    animation: spinner1 0.6s infinite;
+    animation: bubble1 0.6s infinite;
 }
 
-.spinner.s div:nth-child(2) {
+.bubble.s div:nth-child(2) {
     left: 1px;
-    animation: spinner2 0.6s infinite;
+    animation: bubble2 0.6s infinite;
 }
 
-.spinner.s div:nth-child(3) {
+.bubble.s div:nth-child(3) {
     left: 4px;
-    animation: spinner4 0.6s infinite;
+    animation: bubble4 0.6s infinite;
 }
 
-.spinner.s div:nth-child(4) {
+.bubble.s div:nth-child(4) {
     left: 8px;
-    animation: spinner3 0.6s infinite;
+    animation: bubble3 0.6s infinite;
 }
 
-@keyframes spinner1 {
+@keyframes bubble1 {
     0% {
         transform: scale(0);
     }
@@ -78,7 +78,7 @@
     }
 }
 
-@keyframes spinner3 {
+@keyframes bubble3 {
     0% {
         transform: scale(1);
     }
@@ -88,7 +88,7 @@
     }
 }
 
-@keyframes spinner2 {
+@keyframes bubble2 {
     0% {
         transform: translate(0, 0);
     }
@@ -98,12 +98,77 @@
     }
 }
 
-@keyframes spinner4 {
+@keyframes bubble4 {
     0% {
         transform: translate(0, 0);
     }
 
     100% {
         transform: translate(8px, 0);
+    }
+}
+
+.ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.ring.s {
+    height: 30px;
+    width: 30px;
+}
+
+.ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid var(--primary-color);
+    border-radius: 50%;
+    animation: ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: var(--primary-color) transparent transparent transparent;
+}
+
+.ring.s div {
+    width: 35px;
+    height: 35px;
+    border: 4px solid var(--primary-color);
+}
+
+.ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+.ring.s div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.ring.s div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.ring.s div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
     }
 }
