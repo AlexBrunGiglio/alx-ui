@@ -7,4 +7,6 @@ body {
     --success-color: #12b23a;
     --warning-color: #c3b304;
     --danger-color: #ad0d0d;
+    --disabled-color: #4b4b4baf;
+    --disabled-text-color: #2f2f2faf;
 }

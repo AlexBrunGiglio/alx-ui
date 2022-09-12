@@ -3,8 +3,8 @@ import { render } from "@testing-library/react";
 
 import Nav from "./Nav";
 
-describe("Button", () => {
-    test("renders the Button component", () => {
+describe("Nav", () => {
+    test("renders the Nav component", () => {
         render(<Nav title='NavTitle' links={[
             {
                 label: 'Link1',
@@ -18,6 +18,6 @@ describe("Button", () => {
                 label: 'Link3',
                 onClick: () => { },
             },
-        ]} showMenu={true} menuLabel="Menu" />);
+        ]} showMenu={true} menuLabel="Menu" onMenuClick={() => { }} />);
     });
 });
