@@ -28,6 +28,5 @@ jobs:
         cache: 'yarn'
     - run: rm -rf noes_modules
     - run: yarn
-    - run: yarn rollup
     - run: yarn test
-    - run: yarn build
+    - run: yarn rollup
