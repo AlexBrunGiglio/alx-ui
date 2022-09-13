@@ -1,5 +1,5 @@
 {
-  "name": "@ark-ui/components",
+  "name": "@AlexBrunGiglio/ark-ui",
   "version": "1.0.1",
   "description": "Ark-UI est une librairie de composants web.",
   "license": "MIT",
@@ -23,6 +23,9 @@
   "authors": [
     "Alexandre Brun-Giglio <alexandre.brungiglio@gmail.com>"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest",
