@@ -5,7 +5,7 @@
 [![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)](https://yarnpkg.com)
 [![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com)
 
-[![NodeJS with Grunt](https://github.com/AlexBrunGiglio/ark-ui/actions/workflows/npm-grunt.yml/badge.svg?branch=main&event=page_build)](https://github.com/AlexBrunGiglio/ark-ui/actions/workflows/npm-grunt.yml)
+[![Node.js CI](https://github.com/AlexBrunGiglio/ark-ui/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/AlexBrunGiglio/ark-ui/actions/workflows/node.js.yml)
 [![GitHub issues](https://img.shields.io/github/issues/AlexBrunGiglio/ark-ui)](https://github.com/AlexBrunGiglio/ark-ui/issues)
 [![GitHub stars](https://img.shields.io/github/stars/AlexBrunGiglio/ark-ui)](https://github.com/AlexBrunGiglio/ark-ui/stargazers)
 
