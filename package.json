@@ -1,9 +1,28 @@
 {
-  "name": "ark-ui",
-  "version": "1.1.0",
+  "name": "@ark-ui/components",
+  "version": "1.0.1",
   "description": "Ark-UI est une librairie de composants web.",
-  "main": "dist/cjs/index.js",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "kit",
+    "ui",
+    "component-library",
+    "component"
+  ],
+  "homepage": "https://github.com/AlexBrunGiglio/ark-ui",
+  "repository": "https://github.com/AlexBrunGiglio/ark-ui",
+  "maintainers": [
+    "Alexandre Brun-Giglio <alexandre.brungiglio@gmail.com>"
+  ],
+  "engines": {
+    "node": ">= 14",
+    "npm": ">= 8.10.0",
+    "yarn": ">= 1.22.0"
+  },
+  "authors": [
+    "Alexandre Brun-Giglio <alexandre.brungiglio@gmail.com>"
+  ],
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest",
@@ -53,6 +72,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
+  "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
