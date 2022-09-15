@@ -1,7 +1,7 @@
 {
-  "name": "@AlexBrunGiglio/ark-ui",
+  "name": "alx-ui",
   "version": "1.0.1",
-  "description": "Ark-UI est une librairie de composants web.",
+  "description": "Alx-UI est une librairie de composants web.",
   "license": "MIT",
   "keywords": [
     "react",
@@ -24,7 +24,10 @@
     "Alexandre Brun-Giglio <alexandre.brungiglio@gmail.com>"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org",
+    "publishConfig": {
+      "access": "public"
+    }
   },
   "scripts": {
     "rollup": "rollup -c",

@@ -9,7 +9,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/AlexBrunGiglio/ark-ui)](https://github.com/AlexBrunGiglio/ark-ui/issues)
 [![GitHub stars](https://img.shields.io/github/stars/AlexBrunGiglio/ark-ui)](https://github.com/AlexBrunGiglio/ark-ui/stargazers)
 
-**Ark UI** is fully-treeshakable React UI Kit consisting of multiple base libraries and several add-ons.
+**Alx UI** is fully-treeshakable React UI Kit consisting of multiple base libraries and several add-ons.
 
 ## Core team
 
@@ -44,4 +44,4 @@
 
 ## License
 
-🆓 Feel free to use Ark UI library in your commercial and private applications
+🆓 Feel free to use Alx UI library in your commercial and private applications
