@@ -1,5 +1,6 @@
 import React from "react";
 import './Nav.css';
+import "../../assets/main.css";
 
 export interface NavLinksProps {
     label: string;

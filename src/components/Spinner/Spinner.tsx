@@ -1,5 +1,7 @@
 import React from "react";
 import './Spinner.css';
+import "../../assets/main.css";
+
 
 export interface SpinnerProps {
     show: boolean;

@@ -1,4 +1,4 @@
-# <img src="https://alexandrebrungiglio.fr/static/media/logo.2f4ffd121f30d0eb7bbd.png" alt="taiga ui logo" width="48px"> Ark UI
+# <img src="https://alexandrebrungiglio.fr/static/media/logo.2f4ffd121f30d0eb7bbd.png" alt="taiga ui logo" width="48px"> Alx UI
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org)
 [![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)](https://storybook.js.org)
 [![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)](https://jestjs.io/)
